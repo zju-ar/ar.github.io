@@ -1,2 +1,20 @@
 theme: jekyll-theme-cayman
 encoding: UTF-8
+
+# Site settings
+title: ar's homepage
+SEOTitle: ar's homepage
+email: ar#zju.edu.cn (please replace '#' with '@')
+description: "守望者的逃离"
+keyword: "ar, CTF, OI"
+url: "https://ar00.co"
+baseurl: ""
+
+# Sidebar settings
+sidebar: true
+# sidebar-about-description: ""
+# sidebar-avatar:
+# use absolute URL, seeing it's used in both / and ' /about/’
+
+# SNS settings
+RSS: false
