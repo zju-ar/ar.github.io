@@ -4,7 +4,7 @@ encoding: UTF-8
 # Site settings
 title: ar's homepage
 SEOTitle: ar's homepage
-email: ar#zju.edu.cn (please replace '#' with '@')
+email: **#***.***.** (please replace '#' with '@')
 description: "守望者的逃离"
 keyword: "ar, CTF, OI"
 url: "https://ar00.co"
@@ -18,3 +18,6 @@ sidebar: true
 
 # SNS settings
 RSS: false
+
+# Google Analytics
+google_analytics: UA-162814912-1
