@@ -4,7 +4,7 @@ encoding: UTF-8
 # Site settings
 title: ar's homepage
 SEOTitle: ar's homepage
-email: **#***.***.** (please replace '#' with '@')
+
 description: "守望者的逃离"
 keyword: "ar, CTF, OI"
 url: "https://ar00.co"
