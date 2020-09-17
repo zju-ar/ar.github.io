@@ -1,0 +1,10 @@
+{
+  "name": "ar Blog",
+  "short_name": "ar Blog",
+  "description": "Hello ar2018!",
+  "background_color": "#fff",
+  "theme_color": "#000",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait"
+}
