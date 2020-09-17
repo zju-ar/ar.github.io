@@ -4,8 +4,8 @@ encoding: UTF-8
 # Site settings
 
 # Site settings
-title: ar blog
-SEOTitle: ar's homepage
+title: ar's blog
+SEOTitle: ar's blog
 emial: ar@zju.edu.cn
 description: "守望者的逃离"
 keyword: "ar, ar2018, CTF, OI"
@@ -50,7 +50,7 @@ kramdown:
       start_line: 1
 
 # Disqus settings
-disqus_username: hux
+disqus_username: ar
 
 # Netease settings
 netease_comment: false
