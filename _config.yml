@@ -7,7 +7,7 @@ encoding: UTF-8
 title: ar's blog
 SEOTitle: ar's blog
 email: ar@zju.edu.cn
-description: "守望者的逃离"
+description: "Hello, world! Hello, ar2018!"
 keyword: "ar, ar2018, CTF, OI"
 url: "https://ar00.co"
 baseurl: ""
@@ -66,7 +66,7 @@ sidebar: false                           # whether or not using Sidebar.
 
 # Featured Tags
 featured-tags: false                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+# featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
 
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
