@@ -11,4 +11,4 @@ tags:
 
 Hello, world!  
 Hello, ar2018!  
-This post is in honor of Mr M.K. Hu.
+This post is in honor of **Mr M.K. Hu**.
