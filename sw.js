@@ -9,9 +9,9 @@ const PRECACHE_LIST = [
   "./offline.html",
   "./js/jquery.min.js",
   "./js/bootstrap.min.js",
-  "./js/ar-blog.min.js",
+  "./js/hux-blog.min.js",
   "./js/snackbar.js",
-  "./css/ar-blog.min.css",
+  "./css/hux-blog.min.css",
   "./css/bootstrap.min.css"
   // "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css",
   // "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/fonts/fontawesome-webfont.woff2?v=4.6.3",
@@ -169,9 +169,9 @@ self.addEventListener('fetch', event => {
     // Stale-while-revalidate for possiblily dynamic content
     // similar to HTTP's stale-while-revalidate: https://www.mnot.net/blog/2007/12/12/stale
     // Upgrade from Jake's to Surma's: https://gist.github.com/surma/eb441223daaedf880801ad80006389f1
-    // const cached = caches.match(event.request);
-    // const fetched = fetch(getCacheBustingUrl(event.request), { cache: "no-store" });
-    // const fetchedCopy = fetched.then(resp => resp.clone());
+    const cached = caches.match(event.request);
+    const fetched = fetch(getCacheBustingUrl(event.request), { cache: "no-store" });
+    const fetchedCopy = fetched.then(resp => resp.clone());
     
     // Call respondWith() with whatever we get first.
     // Promise.race() resolves with first one settled (even rejected)
