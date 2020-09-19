@@ -1,3 +1,13 @@
+/* ===========================================================
+ * sw-registration.js
+ * ===========================================================
+ * Copyright 2020 @ar
+ * Licensed under Apache 2.0
+ * Register service worker.
+ * ========================================================== */
+
+// SW Version Upgrade Ref: <https://youtu.be/Gb9uI67tqV0>
+
 function handleRegistration(registration){
   console.log('Service Worker Registered. ', registration)
   /**
