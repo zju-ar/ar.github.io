@@ -1,5 +1,4 @@
 module.exports = function(grunt) {
-
     // Project configuration.
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
@@ -60,14 +59,11 @@ module.exports = function(grunt) {
             },
         },
     });
-
     // Load the plugins.
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-banner');
     grunt.loadNpmTasks('grunt-contrib-watch');
-
     // Default task(s).
     grunt.registerTask('default', ['uglify', 'less', 'usebanner']);
-
 };
