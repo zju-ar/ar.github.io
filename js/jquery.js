@@ -9168,6 +9168,9 @@ if ( typeof define === "function" && define.amd ) {
 	});
 }
 
+
+
+
 var
 	// Map over jQuery in case of overwrite
 	_jQuery = window.jQuery,
@@ -9193,6 +9196,9 @@ jQuery.noConflict = function( deep ) {
 if ( typeof noGlobal === strundefined ) {
 	window.jQuery = window.$ = jQuery;
 }
+
+
+
 
 return jQuery;
 
