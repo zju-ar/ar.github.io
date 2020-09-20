@@ -10,5 +10,5 @@ tags:
 ---
 
 Hello, world!  
-Hello, ar2018!  
+Hello, `ar2018`!  
 This post is in honor of **Mr M.K. Hu**.
