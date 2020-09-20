@@ -4,9 +4,9 @@ _posts/_archive
 _archive
 node_modules
 .vscode
+*.sh
 *.log
 *.lock
-*.sh
 .DS_Store
 .jekyll-cache
 */.DS_Store
