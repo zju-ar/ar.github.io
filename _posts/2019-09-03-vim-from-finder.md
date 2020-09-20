@@ -4,7 +4,6 @@ title:      "黑客养成记"
 subtitle:   "到底要学哪些课呢？"
 date:       2020-09-19 00:00:00 +0800
 author:     "ar"
-catalog:    false
 header-style: text
 tags: [CTF, Hacker, Courses]
 ---
