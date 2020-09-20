@@ -26,4 +26,4 @@ tags: [CTF, Hacker, Courses]
 
 頑張って！ar2018!  
 
-**学习网站：**https://py3.io/
+**学习网站：[Chen Yuan's notebook](https://py3.io)**
