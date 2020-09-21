@@ -20,13 +20,7 @@ task :post do
   title = ENV["title"] || "new-post"
   subtitle = ENV["subtitle"] || "This is a subtitle"
   slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
-  begin
-    date = (ENV['date'] ? Time.parse(ENV['date']) : Time.now).strftime('%Y-%m-%d')
-  rescue Exception => e
-    puts "Error - date format must be YYYY-MM-DD, please check you typed it correctly!"
-    exit -1
-  end
-  filename = File.join(CONFIG['posts'], "#{date}-#{slug}.#{CONFIG['post_ext']}")
+  filename = File.join(CONFIG['posts'], "#{slug}.#{CONFIG['post_ext']}")
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
@@ -37,7 +31,6 @@ task :post do
     post.puts "layout: post"
     post.puts "title: \"#{title.gsub(/-/,' ')}\""
     post.puts "subtitle: \"#{subtitle.gsub(/-/,' ')}\""
-    post.puts "date: #{date}"
     post.puts "author: \"ar\""
     post.puts "tags: []"
     post.puts "---"
